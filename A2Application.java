@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * The main entrypoint of the assignment.
+ * The main entrypoint.
  */
 @Controller
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
