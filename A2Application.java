@@ -25,5 +25,5 @@ public class A2Application {
     public @ResponseBody String sayHello(@RequestParam(value = "name", required = false, defaultValue = "Stranger") String name)
     {
         return "Hello " + name + "!";
-    }//http://localhost:9000/hello?name=navid
+    }//http://localhost:9000/hello?name=Joseph
 }
